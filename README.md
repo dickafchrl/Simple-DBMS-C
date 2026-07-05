@@ -22,11 +22,9 @@
 
 ## File Structure
 
-- **[Library.h](file:///C:/Users/Advan/Documents/Magang/C/Mesin-Ketik/Library.h)**: Declares core structures (e.g., `dataName`), enumerations for commands and tables, global parsing variables, and function prototypes.
-- **[Main.c](file:///C:/Users/Advan/Documents/Magang/C/Mesin-Ketik/Main.c)**: The entry point of the program. Initializes the CLI loop and reads user input ribbon-queries.
-- **[Mesin.c](file:///C:/Users/Advan/Documents/Magang/C/Mesin-Ketik/Mesin.c)**: Implements database handlers, search/sort routines, file input/output routines, and parser state transitions (start, reset, increment, and eop checkers).
-- **[ItemList.txt](file:///C:/Users/Advan/Documents/Magang/C/Mesin-Ketik/ItemList.txt)**: Default data store for the `ITEMNAME` table.
-
+- **[Library.h]**: Declares core structures (e.g., `dataName`), enumerations for commands and tables, global parsing variables, and function prototypes.
+- **[Main.c]**: The entry point of the program. Initializes the CLI loop and reads user input ribbon-queries.
+- **[Mesin.c]**: Implements database handlers, search/sort routines, file input/output routines, and parser state transitions (start, reset, increment, and eop checkers).
 ---
 
 ## Query Syntax Guide
